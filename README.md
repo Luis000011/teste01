@@ -1,119 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-   
-    <title>Pagina web basica</title>
+    <title> Informatize </title>
 </head>
-<body class="carregando">
-    <div class="head">
+
+<div class="carregando">
+<div class="head">
+<div id="gradient"> </div>
+
+<header>
+    <div>
+    <nav>
         <div>
-            <img src="loginho.png" width="211" height="53">
+            <img src="logo.png" height="50">
         </div>
-
-        <nav class="navbar">
-            <a href="index.html">Inicio</a>
-            <a href="#">texto</a>
-            <a href="#">contato</a>
-            <a href="#">produtos</a> 
-        </nav>
- 
-        </nav>
-
+        <ul>
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">sobre nós</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">serviços</a></li>
+        </ul>
+    </nav>
     </div>
+</header>
+<body>
 
-    <header class="content header">
-        <h2 class="title">Inicio</h2>
-        <center>
-        <p>
-            <p> Este projeto foi elaborado no intuito de ajudar você pequeno ou grande 
-                empreendedor a construir sua empresa do zero, informatizando-a. 
-                Nesta página informamos alguns passos para a construção, desde a 
-                compra de equipamentos, construção da rede do estabelecimento, 
-                softwares necessários, segurança do local e até mesmo o contrato 
-                dos profissionais responsáveis por cada área.
-        </center>
-
-        </p>
-
-        <div class="btn-home">
-            <a href="#" class="btn">Saber mas</a>
-            <a href="#" class="btn">Saber mas</a>
-        </div>
-    </header>
-
-    <section class="content sau">
-
-        <h2 class="title"></h2>
-        <h2>Selecione abaixo a área que você deseja obter Informações </h2>
+    <div class="img-btx">
         
-        <div class="container-a" align="center">
-        <div class="box-container">
-
-        </div>
         <main>
-            <div class="btn-home">
-                <a href="#" class="btn"> Saber mais</a> 
-                <a href="#" class="btn"> Saber mais</a> 
-            </div>
-            <div class="imagem-container">
-              <a href="#">
-                <img src="Softwares.png" alt="Imagem 1" class="imagem-animada"width="100" height="100">
-              </a>
-              <a href="project7.html">
-                <img src="Equipamentos.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
-              </a>
-              <a href="#">
-                <img src="Redes.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
-              </a>
-              <a href="#">
-                <img src="Segurança.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
-              </a>
-              <a href="#">
-                <img src="Profissionais.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
-              </a>
-            </div>
-                
-              </div>
+           <h4> Informatize sua empresa: <b> Isso será esencial para seu crescimento </b> </h4>
+            <p> Sabemos que nem sempre é fácil construir um negócio e pensar em informatizá-lo acaba gerando dúvidas. 
+                Por isso, elaboramos abaixo uma série de dicas de como informatizar a sua empresa. Nesta página informamos 
+                alguns passos para a construção da mesma, desde a compra de equipamentos, construção da rede do estabelecimento, 
+                softwares necessários, segurança do local e até o contrato dos profissionais responsáveis por cada área. </p>
         </main>
+        <img src="fundo.png">
         
-
-    </section>
-
-    <section class="content about">
-
-        <h2 class="title">Sobre o site</h2>
-        <h2>Este projeto foi elaborado no intuito de ajudar você pequeno ou grande empreendedor a construir sua empresa do zero, informatizando-a. Nesta página informamos alguns passos para a construção, desde a compra de equipamentos, construção da rede do estabelecimento, softwares necessários, segurança do local e até mesmo o contrato dos profissionais responsáveis por cada área.
-
-        </h2>
-
-        <a href="#" class="btn">Saber mais</a>
-
-    </section>
-
-    <section class="content price">
-
-        <article class="contain">
-            <h2 class="title">Precio</h2>
-            <p>texto texto texto texto texto texto texto texto
-            </p>
-
-            <a href="#" class="btn">Saber precio</a>
-
-        </article>
-
-    </section>
-
-    <section class="content contact">
-        <h2 class="title">Contacto</h2>
-        <p>48481548</p>
-        <figure class="map">
-            <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
-        </figure>
-    </section>
+    </div>
+<div class="img-biax"
+        
+        <h1 class="title"> </h1>
+        <center>  <h1>Selecione abaixo a área que você deseja obter Informações </h1> </center>
     
+    <center>
+        <main>
+            <div>
+                <a href="Softwares.html">
+                <img src="Softwares.png" width="100" height="100">
+                <h1>Software</h1> </a></div>
+                <div>
+                <a href="Equipamentos.html">
+                <img src="Equipamentos.png" width="100" height="100">
+                <h1>Equipamentos</h1></a> </div>
+                <div>
+                <a href="Redes.html">
+                <img src="Redes.png" width="100" height="100">
+                <h1>Redes</h1></a> </div>
+                <div> 
+                <a href="Segurança.html">
+                <img src="Segurança.png" width="100" height="100">
+                <h1>Segurança</h1></a> </div>
+                <div>
+                <a href="Profissionais.html">
+                <img src="Profissionais.png" width="100" height="100">
+                <h1>Profissionais</h1> </a></div>
+                <div>
+                <a href="Logistica.html">
+                <img src="Logistica.png" width="100" height="100">
+                <h1>Logistica</h1> </a></div>
+                <div>
+                <a href="Recursos Humanos.html">
+                <img src="Recursos Humanos.png" width="100" height="100">
+                <h1>Recursos Humanos </h1> </a></div>                                  
+            </div>
+                             
+        </main>
+    </center>
+    <script src="main.js"></script>
 </body>
 </html>
-
-<!--                              <div class="box">

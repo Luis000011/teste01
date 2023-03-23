@@ -2,23 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    
+   
     <title>Pagina web basica</title>
-
 </head>
-<body>
-    <body class="carregando">
-        <!-- Conteúdo do site -->
-      </body>
-      
+<body class="carregando">
     <div class="head">
-
         <div>
-        <img src="loginho.png" width="211" height="53">
+            <img src="loginho.png" width="211" height="53">
         </div>
 
         <nav class="navbar">
@@ -27,72 +18,102 @@
             <a href="#">contato</a>
             <a href="#">produtos</a> 
         </nav>
+ 
+        </nav>
 
     </div>
 
+    <header class="content header">
+        <h2 class="title">Inicio</h2>
+        <center>
+        <p>
+            <p> Este projeto foi elaborado no intuito de ajudar você pequeno ou grande 
+                empreendedor a construir sua empresa do zero, informatizando-a. 
+                Nesta página informamos alguns passos para a construção, desde a 
+                compra de equipamentos, construção da rede do estabelecimento, 
+                softwares necessários, segurança do local e até mesmo o contrato 
+                dos profissionais responsáveis por cada área.
+        </center>
 
-
- <center> <h2 class="title"> Cabeamento estruturado
-</h2>
-</center>
-   
-
-       
-<p>
-    Existem alguns componentes considerados primordiais e, dentre eles, aparece a tecnologia PoE. Porém, também são necessários: modem, roteador, switch, rádios outdoor e cabeamento.
-    </p>
-    
-    <center> <h2 class="title"> Cabeamento estruturado
-    </h2>
-    </center>
-    <p>
-         
-  
-        De forma abrangente, é responsável pela transferência das imagens para o gravador de vídeo e a energia para as câmeras. Há um detalhe importante para projetos: cem metros é o máximo que um cabo de rede pode ser utilizado. Porém, para distâncias maiores há uma solução, a utilização de fibra óptica. É recomendado a utilização de cabos com 100% cobre e com selo de homologação da ANATEL.
-
-Existem padrões particulares no cabeamento estruturado. Toda sua infraestrutura é baseada em cima de normas próprias, com o objetivo de proporcionar a interoperabilidade entre fabricantes. Também funciona como guia de orientação de novas instalações ou adequações necessárias. Separamos quatro normas para o instalador ficar atento: <p>
-    ANSI/TIA-568-C: tem como propósito definir e orientar sobre os conceitos básicos do cabeamento estruturado, que vão desde seus elementos até os tipos de cabos e tomadas, distâncias e certificações;
-ANSI/TIA-569-B: fornece uma definição da infraestrutura que será ocupada pelo cabeamento estruturado, dando as dimensões, taxa de ocupações e outras informações;
-ANSI/TIA-606-A: especifica as técnicas e métodos para identificar e gerenciar a infraestrutura de telecomunicações;
-ABNT NBR 14565: especificará qual o sistema de cabeamento estruturado para forma individual, em estabelecimentos comerciais em um campus e em data center. Foca em cabeamento metálico e óptico.
-Tecnologia PoE
-
-
-</p>
-<p>De forma bastante simplificada, podemos dizer que a tecnologia PoE, também chamada de Power over Ethernet, é aquela que permite o tráfego de dados e energia por um mesmo cabo. O que traz imensas vantagens em diversas situações, incluindo a necessidade de alcançar localidades de difícil acesso e muito mais. Numa das soluções mais comuns em seu uso está adotar um switch PoE, distribuindo a energia elétrica e transmitindo dados através da mesma porta do switch, sem precisar se preocupar em instalar cabeamento duplicado, o de rede e o de energia, por exemplo.</p>
-      </p>
-<center>
-      <h2 class="title"> Switch</h2>
-    </center>
-  
-      <p>
-           
-        A função do Switch é fornecer a distribuição de dados em rede. Quando falamos em sistemas de segurança, queremos dizer a conexão que deve ocorrer entre câmeras e gravadores e, a partir deles, para os clientes de visualização. Como falamos das vantagens da tecnologia PoE, na maior parte dos sistemas de segurança há uma preferência por um switch PoE, no qual dados e energia elétrica são enviados pelo mesmo cabo, sem precisar de infraestrutura separada.
         </p>
 
-        <p>Há ainda os switches não gerenciáveis e gerenciáveis. No primeiro caso, não há possibilidade de configuração lógica, embora possuam baixo custo. São usados apenas para conectar dispositivos dentro de uma LAN física, limitados para projetos que não precisam de configurações avançadas, como VLANs por exemplo. No segundo caso, há níveis de configuração, possibilidade de reiniciar equipamentos, segmentar o tráfego de vídeo por meio de VLANs e também configurar multicast na rede. Aqui há um “Guia de boas práticas para Cascateamento de switches” para se aprofundar mais.</p>
+        <div class="btn-home">
+            <a href="#" class="btn">Saber mas</a>
+            <a href="#" class="btn">Saber mas</a>
+        </div>
+    </header>
 
-        <h2 class="title">Roteador </h2>
-  
-        <p>
-            De forma bastante objetiva, são usados para conectar múltiplas redes. Significa que um roteador inspeciona o tráfego de rede e envia os pacotes endereçados para fora da rede local, por meio de porta WAN para um modem conectado. Assim, o tráfego local se mantém internamente. Outra funcionalidade de um roteador é como firewall em sistemas de segurança, que permite apenas o tráfego em dispositivos específicos, de acordo com regras pré-definidas. Por fim, na rede de vigilância, o firewall torna acessível a conexão aos equipamentos pela internet apenas nos dispositivos liberados anteriormente.
+    <section class="content sau">
 
-            
-            
-          </p>
-          <h2 class="title">Modem</h2>
-  
-          <p>
-               
+        <h2 class="title"></h2>
+        <h2>Selecione abaixo a área que você deseja obter Informações </h2>
         
-            O modem é quem faz a ligação da rede LAN com a Internet.
-        
-            </p>
-            <h2 class="title"> Rádios outdoor
-            </h2>
-  
-            <p>
-                Já os rádios outdoor são uma opção bastante utilizada em locais afastados ou com pouca acessibilidade, mas que possuem visada entre os dois pontos. São uma forma de interligar câmeras de CFTV IP com a rede através de links wireless. Também são muito utilizados para interligar câmeras instaladas em elevadores, eliminando a necessidade de utilizar um cabo dentro do fosso do elevador.
+        <div class="container-a" align="center">
+        <div class="box-container">
+
+        </div>
+        <main>
+            <div class="btn-home">
+                <a href="#" class="btn"> Saber mais</a> 
+                <a href="#" class="btn"> Saber mais</a> 
+            </div>
+            <div class="imagem-container">
+              <a href="#">
+                <img src="Softwares.png" alt="Imagem 1" class="imagem-animada"width="100" height="100">
+              </a>
+              <a href="project7.html">
+                <img src="Equipamentos.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
+              </a>
+              <a href="#">
+                <img src="Redes.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
+              </a>
+              <a href="#">
+                <img src="Segurança.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
+              </a>
+              <a href="#">
+                <img src="Profissionais.png" alt="Imagem 1" class="imagem-animada" width="100" height="100">
+              </a>
+            </div>
                 
-              </p>
-             
+              </div>
+        </main>
+        
+
+    </section>
+
+    <section class="content about">
+
+        <h2 class="title">Sobre o site</h2>
+        <h2>Este projeto foi elaborado no intuito de ajudar você pequeno ou grande empreendedor a construir sua empresa do zero, informatizando-a. Nesta página informamos alguns passos para a construção, desde a compra de equipamentos, construção da rede do estabelecimento, softwares necessários, segurança do local e até mesmo o contrato dos profissionais responsáveis por cada área.
+
+        </h2>
+
+        <a href="#" class="btn">Saber mais</a>
+
+    </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            <h2 class="title">Precio</h2>
+            <p>texto texto texto texto texto texto texto texto
+            </p>
+
+            <a href="#" class="btn">Saber precio</a>
+
+        </article>
+
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>48481548</p>
+        <figure class="map">
+            <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+    
+</body>
+</html>
+
+<!--                              <div class="box">

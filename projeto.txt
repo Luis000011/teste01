@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  
+  article{
+    display: flex;
+    background-color: #344d6b; 
+  }
+  
+  p {
+    margin-left: 200px;
+    margin-top: 70px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 10px;
+    justify-content: center;
+    text-align: justify;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  .content {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sau{
+    background-image: linear-gradient(#344d6b, black);
+    height: 500px;
+    padding: 30px;
+    
+  }
+  .imagem {
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+  }
+  
+  main {
+    display: inline-table;
+    justify-content: center;
+    padding: 20px;
+    border-top: 10px;
+  
+  }
+  
+  div img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10PX;
+  
+  }
+  
+    article h2 {
+    height: 1000px;
+    background:#ff0000;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .contact {
+    padding-top: 20px;
+    background: #38e20e;
+    padding-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+  
+    .sau {
+        height: 100vh;
+    }
+  
+    .navbar {
+        display: none;
+    }
+    
+  }
+  
+  
+  
+  header {
+                height: 12vh;          
+                background-color:#344d6b;
+                          display: flex;
+                          justify-content: space-between;
+                       
+                         
+                         
+                         
+                        }
+              body {
+                  background-color: rgb(255, 255, 255);
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 20px;           
+              }
+
+              p{
+                text-align: justify;
+              }
+  
+  
+             
+               /* Adicione seus estilos CSS aqui */
+               section {
+                  max-width: 800px;
+                  width: 100%;
+                  padding: 20px;
+                }
+       
+                article p {
+                  margin-right: 350px;
+                  margin-left: 350px;
+                 }
+                 
+   
+  
+  
+            body {
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              line-height: 1.5;
+            }
+            main {
+              display: flex;
+              justify-content: center;
+              padding: 20px;
+            }
+            section {
+              max-width: 800px;
+              width: 100%;
+            }
+            ul {
+              list-style: none;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            }
+           
+            footer {
+              background-color: #f2f2f2;
+              display: flex;
+              justify-content: center;
+              padding: 20px;
+            }
+          href{
+            border-bottom: #f2f2f2;}  
+            l, li { font-family:Arial, Helvetica, sans-serif; font-size:0.9em; color:rgb(255, 255, 255);
+              line-height:1.8 }
+  
+  
+          p { font-family:Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            color:rgb(0, 0, 0);
+            line-height:1.8 }
+  
+  
+         
+          a :hover {
+                  border: 30px solid blue;
+                  background-color: rgb(150, 215, 255);
+                  transition: 1s;
+                  justify-content: space-between;
+                  }
+                 
+          a2 :hover {
+                  border: 10px solid rgb(255, 255, 255);
+                  background-color: rgb(150, 215, 255);
+                  transition: 0.2s;
+                  }
+  
+  
+  
+  
+                 
+   p,h3  {
+    font-family:'Courier New', Courier;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: #344d6b;
+  }
+  
+  
+  nav ul li a{
+    font-family:'Courier New', Courier;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: -150px;
+    margin-right: 10px;
+    background-color: rgb(150, 215, 255);
+    font-size: 18px;
+    cursor:auto;
+  
+  
+  }
+  
+  
+  nav{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 8px;
+  
+  
+  }
+  
+  
+  li:hover {
+    transform: translateY(-2px);
+  }]
